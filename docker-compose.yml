@@ -2,35 +2,19 @@ version: "3.8"
 
 services:
   moodle:
-    image: bitnami/moodle:latest
+    image: bitnami/moodle@latest
     ports:
       - 80:8080
       - 443:8443
-    # environment:
-    # - MOODLE_SSLPROXY=false
-    #   - MOODLE_HOST="0.0.0.0"
-    # - MOODLE_REVERSEPROXY=true
-    env_file:
-      - .env
-    networks:
-      - reto-4
-    depends_on:
-      - db
+    environment:
+      MOODLE_DATABASE_TYPE: mysqli
+      MOODLE_DATABASE_HOST: 34.30.27.152
+      MOODLE_DATABASE_PORT_NUMBER: 3306
+      MOODLE_DATABASE_NAME: moodledb
+      MOODLE_DATABASE_USER: moodleuser
+      MOODLE_DATABASE_PASSWORD: password
+      MOODLE_SKIP_BOOTSTRAP: "yes"
     # volumes:
-    #   - ./moodle_data:/bitnami/moodle
-
-  db:
-    build:
-      context: .
-    command: ./cloud_sql_proxy -credential_file /service-account.json -instances=reto-4-384523:us-central1:postgres=tcp:0.0.0.0:5432
-    expose:
-      - 5432
-    volumes:
-      - ./service-account.json:/service-account.json
-    networks:
-      - reto-4
-
-networks:
-  reto-4:
-# volumes:
-#   moodle_data:
+    #   - /nfs-moodle:/bitnami
+    # volumes:
+    #   - ./tmp:/bitnami
