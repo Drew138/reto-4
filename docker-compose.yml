@@ -13,7 +13,7 @@ services:
       MOODLE_DATABASE_NAME: moodledb
       MOODLE_DATABASE_USER: moodleuser
       MOODLE_DATABASE_PASSWORD: password
-      MOODLE_SKIP_BOOTSTRAP: "yes"
+      # MOODLE_SKIP_BOOTSTRAP: "yes"
     # volumes:
     #   - /nfs-moodle:/bitnami
     # volumes:
