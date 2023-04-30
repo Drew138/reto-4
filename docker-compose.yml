@@ -8,7 +8,7 @@ services:
       - 443:8443
     environment:
       - MOODLE_DATABASE_TYPE=mysqli
-      - MOODLE_DATABASE_HOST=34.30.27.152
+      - MOODLE_DATABASE_HOST=10.63.192.3
       - MOODLE_DATABASE_PORT_NUMBER=3306
       - MOODLE_DATABASE_NAME=moodledb
       - MOODLE_DATABASE_USER=moodleuser
