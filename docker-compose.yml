@@ -16,5 +16,5 @@ services:
       - MOODLE_SKIP_BOOTSTRAP=no
       - MOODLE_USERNAME=user
       - MOODLE_PASSWORD=secret
-    # volumes:
-    #   - /nfs-moodle:/bitnami
+    volumes:
+      - /nfs-moodle:/bitnami
