@@ -164,6 +164,20 @@ Con el servidor ya corriendo:
 2. Ingresar a la plataforma de moodle como de costumbre
 
 ## Resultados
+
+### WebApp
+![image](https://user-images.githubusercontent.com/58788781/235382551-c798d88a-8df6-4d25-942f-ff23df3db739.png)
+### Google Cloud SQL - MySQL
+![image](https://user-images.githubusercontent.com/58788781/235382450-2665af6c-54b6-4461-9de8-7111939bba3b.png)
+### Google Compute Engine
+#### Virtual Machines
+![image](https://user-images.githubusercontent.com/58788781/235382496-3d9526af-cff3-4bd2-8bfa-73c515078c42.png)
+#### Instance Templates
+![image](https://user-images.githubusercontent.com/58788781/235382509-17dd0714-964a-4fa2-9cab-dbf5f95ed425.png)
+#### Instance Groups
+![image](https://user-images.githubusercontent.com/58788781/235382521-b40aeddb-7bb0-43d0-b2cd-ceb5ef31f5e0.png)
+
+
 SDKFHASHDGASHDFASDFASHDFLASHDF
 ASDFJASDFJASKDFASDFJASKJDFKASDF
 SDKFHASHDGASHDFASDFASHDFLASHDF
