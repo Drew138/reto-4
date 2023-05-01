@@ -8,6 +8,9 @@
 
 # Despliegue de aplicacion LAMP Monolitica con servicios distribuidos en GCP
 
+# Video
+https://youtu.be/pZlUtQxA0Es
+
 # 1. breve descripción de la actividad
 
 Esta actividad consta de realizar el despliegue de la plataforma Moodle utilizando servicios de cloud para cubrir requisitos de almacenamiento, base de datos, maquinas virtuales, load balancing, certificados, y auto-scaling.
