@@ -176,11 +176,11 @@ Con el servidor ya corriendo:
 ![image](https://user-images.githubusercontent.com/58788781/235382509-17dd0714-964a-4fa2-9cab-dbf5f95ed425.png)
 #### Instance Groups
 ![image](https://user-images.githubusercontent.com/58788781/235382521-b40aeddb-7bb0-43d0-b2cd-ceb5ef31f5e0.png)
-#### Cloud Load Balancing
+### Cloud Load Balancing
 ![image](https://user-images.githubusercontent.com/65835577/235382600-8fceb222-2a2e-42cb-99d9-f29349f160e7.png)
-#### Cloud Volumes
+### Cloud Volumes
 ![image](https://user-images.githubusercontent.com/65835577/235382654-c84fa634-f96a-44c5-86c6-3a0e166e9dce.png)
-#### Namecheap DNS redirect
+### Namecheap DNS redirect
 ![image](https://user-images.githubusercontent.com/65835577/235382662-2ab89123-9cd3-4ac1-b5ef-9f698325ce04.png)
 
 # Comentarios
